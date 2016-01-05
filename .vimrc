@@ -22,7 +22,11 @@ set autoindent
 set softtabstop=4
 set hlsearch
 
-set colorcolumn=80
+" Set columns and background limit
+let &colorcolumn=join(range(81,999),",")
+highlight ColorColumn ctermbg=235 guibg=#2d2d2d
+let &colorcolumn="80,".join(range(120,999),",")
+
 set cursorline
 set number
 set ruler
@@ -33,6 +37,7 @@ filetype plugin on
 
 map <C-o> :browse tabnew<CR>
 map <C-t> :tabnew<CR>
+map <C-w> :tabclose<CR>
 map <C-TAB> :tabnext<CR>
 map <S-C-TAB> :tabprevious<CR>
 map <F9> :NERDTreeToggle<CR>
