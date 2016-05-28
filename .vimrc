@@ -45,3 +45,7 @@ map <F9> :NERDTreeToggle<CR>
 autocmd BufRead,BufNewFile *.ino setlocal filetype=cpp
 autocmd BufRead,BufNewFile *.scss setlocal filetype=sass
 autocmd BufRead,BufNewFile *.html setlocal filetype=htmldjango
+
+:function! PyHead()
+:    execute "normal! ggi# -*- coding:utf-8 -*-\<cr>"
+:endfunction
