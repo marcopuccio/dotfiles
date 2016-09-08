@@ -1,3 +1,0 @@
-# The next Aliases must be pasted at the end of ~/.bashrc file
-
-alias gvim='gvim -p --remote-tab-silent'
