@@ -1,9 +1,24 @@
 {
+    "font_size": 8,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
     "auto_indent": true,
     "detect_indentation": true,
-    "font_size": 8,
-    "hot_exit": false,
     "smart_indent": true,
-    "tab_size": 4,
-    "translate_tabs_to_spaces": true
+    "rulers": [
+        79, 119
+    ],
+
+    "hot_exit": false,
+
+    // Brogrammer Theme
+    // https://github.com/kenwheeler/brogrammer-theme
+    "color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
+    "theme": "Brogrammer.sublime-theme",
+
+    // GitGutterPackage
+    // https://github.com/jisaacks/GitGutter
+    "git_binary": {
+        "linux": "/usr/bin/git"   
+    }
 }
