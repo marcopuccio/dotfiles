@@ -9,7 +9,7 @@
         79, 119
     ],
 
-    "hot_exit": false,
+    "hot_exit": true,
 
     // Brogrammer Theme
     // https://github.com/kenwheeler/brogrammer-theme
