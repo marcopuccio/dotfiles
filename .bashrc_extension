@@ -1,7 +1,7 @@
 # The next Aliases must be pasted at the end of ~/.bashrc file
 
-# GVIM CLI TABS
 alias gvim='gvim -p --remote-tab-silent'
+alias ievms='curl -s https://raw.githubusercontent.com/xdissent/ievms/master/ievms.sh | bash'
 
 
 # GIT BRANCH  FUNC
