@@ -1,35 +1,33 @@
 {
-    "font_size": 8,
-    "tab_size": 4,
-    "translate_tabs_to_spaces": true,
-    "auto_indent": true,
-    "detect_indentation": true,
-    "smart_indent": true,
-    "rulers": [
-        79, 119
-    ],
-    "folder_exclude_patterns":
-    [
-        ".svn",
-        ".git",
-        ".hg",
-        ".idea",
-        ".sass-cache",
-        "node_modules",
-        "bower_components",
-        "htmlcov",
-        "env"
-    ],
-    "hot_exit": true,
-    
-    // Brogrammer Theme
-    // https://github.com/kenwheeler/brogrammer-theme
-    "color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
-    "theme": "Brogrammer.sublime-theme",
-
-    // GitGutterPackage
-    // https://github.com/jisaacks/GitGutter
-    "git_binary": {
-        "linux": "/usr/bin/git"   
-    }
+	"auto_indent": true,
+	"color_scheme": "Packages/User/SublimeLinter/brogrammer (SL).tmTheme",
+	"detect_indentation": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		".idea",
+		".sass-cache",
+		".happypack",
+		"node_modules",
+		"bower_components",
+		"htmlcov",
+		"env"
+	],
+	"font_size": 8,
+	"git_binary":
+	{
+		"linux": "/usr/bin/git"
+	},
+	"hot_exit": true,
+	"rulers":
+	[
+		79,
+		119
+	],
+	"smart_indent": true,
+	"tab_size": 4,
+	"theme": "Brogrammer.sublime-theme",
+	"translate_tabs_to_spaces": true
 }
