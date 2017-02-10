@@ -10,6 +10,7 @@
     "editor.insertSpaces": true,
     "editor.detectIndentation": true,
     "editor.autoClosingBrackets": true,
+    "editor.wrappingColumn": 130,
     // Files
     "files.exclude": {
         "**/.git": true,
