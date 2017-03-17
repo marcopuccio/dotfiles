@@ -10,7 +10,8 @@
     "editor.insertSpaces": true,
     "editor.detectIndentation": true,
     "editor.autoClosingBrackets": true,
-    "editor.wrappingColumn": 130,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 130,
     // Files
     "files.exclude": {
         "**/.git": true,
@@ -26,7 +27,7 @@
         "**/*.pyc": true
     },  
     "files.encoding": "utf8",
-    "files.hotExit": true,
+    "files.hotExit": "onExit",
     // Explorer
     "explorer.enableDragAndDrop": false,
     "search.exclude": {
@@ -38,5 +39,6 @@
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
-    "python.linting.pep8Enabled": false
+    "python.linting.pep8Enabled": false,
+    "workbench.colorTheme": "Monokai"
 }
