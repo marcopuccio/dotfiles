@@ -2,7 +2,7 @@
 {
     // Editor
     "editor.fontSize": 12,
-    "editor.tabSize": 4,
+    "editor.tabSize": 2,
     "editor.rulers": [
         80,
         120
@@ -12,6 +12,7 @@
     "editor.autoClosingBrackets": true,
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 130,
+
     // Files
     "files.exclude": {
         "**/.git": true,
@@ -25,13 +26,14 @@
         "**/.tmp/**": true,
         "**/env/**": true,
         "**/*.pyc": true,
-        
+
         // exclude .js and .js.map files, when in a TypeScript project
         "**/*.js": { "when": "$(basename).ts"},
         "**/*.js.map": true
     },  
     "files.encoding": "utf8",
     "files.hotExit": "onExit",
+
     // Explorer
     "explorer.enableDragAndDrop": false,
     "search.exclude": {
@@ -39,10 +41,17 @@
         "**/bower_components": true,
         "**/env": true
     },
+
     // Python
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.pep8Enabled": false,
-    "workbench.colorTheme": "Monokai"
+    "workbench.colorTheme": "Monokai",
+    "window.zoomLevel": 0,
+
+    // Syntax Specific
+    "[python]": {
+        "editor.tabSize": 4
+    }
 }
