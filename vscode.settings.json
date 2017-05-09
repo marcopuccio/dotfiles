@@ -21,6 +21,8 @@
         "**/.DS_Store": true,
         "**/bower_components": true,
         "**/node_modules/**": true,
+        "**/[Bb]in/**": true,        
+        "**/[Oo]bj/**": true, 
         "**/.sass-cache/**": true,
         "**/.cache/**": true,
         "**/.tmp/**": true,
