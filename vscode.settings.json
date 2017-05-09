@@ -12,6 +12,7 @@
     "editor.autoClosingBrackets": true,
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 130,
+    "editor.snippetSuggestions": "top",
 
     // Files
     "files.exclude": {
