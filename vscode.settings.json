@@ -12,7 +12,6 @@
     "editor.autoClosingBrackets": true,
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 130,
-    "editor.snippetSuggestions": "top",
 
     // Files
     "files.exclude": {
@@ -57,4 +56,7 @@
     "[python]": {
         "editor.tabSize": 4
     }
+    "[javascriptreact]": {
+        "editor.snippetSuggestions": "top"
+    },
 }
