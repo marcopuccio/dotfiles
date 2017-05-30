@@ -55,8 +55,8 @@
     // Syntax Specific
     "[python]": {
         "editor.tabSize": 4
-    }
+    },
     "[javascriptreact]": {
         "editor.snippetSuggestions": "top"
-    },
+    }
 }
