@@ -31,6 +31,7 @@
 
         // exclude .js and .js.map files, when in a TypeScript project
         "**/*.js": { "when": "$(basename).ts"},
+         "**/*.css": { "when": "$(basename).scss" },
         "**/*.js.map": true
     },  
     "files.encoding": "utf8",
