@@ -38,7 +38,8 @@
     "files.encoding": "utf8",
     "files.hotExit": "onExit",
     "files.associations": {
-        "*.jinja": "html"
+        "*.jinja": "html",
+        "*.j2": "html"
     },
 
     // Explorer
