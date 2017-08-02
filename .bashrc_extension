@@ -18,3 +18,5 @@ BLUE="\[\033[01;34m\]"
 
 # SET PS1 WITH GIT BRANCH AND COLORS.
 PS1="$BLUE\u@\h$GREEN:[\W]$RED\$(parse_git_branch)$NO_COLOR\$ "
+
+alias atr='ls -atr'
